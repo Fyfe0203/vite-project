@@ -1,0 +1,49 @@
+{
+    "name": "vue-webgl-online-editor",
+    "version": "0.0.1",
+    "author": {
+        "name": "freeser",
+        "email": "freeser@126.com",
+        "url": "https://github.com/freeser"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
+    },
+    "dependencies": {
+        "ant-design-vue": "2.0.1",
+        "axios": "^0.21.1",
+        "dayjs": "^1.10.4",
+        "nprogress": "^0.2.0",
+        "qs": "^6.10.1",
+        "vue": "^3.0.5",
+        "vue-i18n": "^9.0.0",
+        "vue-router": "^4.0.5",
+        "vuex": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/lodash-es": "^4.17.4",
+        "@types/node": "^14.14.33",
+        "@types/qs": "^6.9.6",
+        "@typescript-eslint/eslint-plugin": "^4.17.0",
+        "@typescript-eslint/parser": "^4.17.0",
+        "@vitejs/plugin-vue": "^1.1.5",
+        "@vitejs/plugin-vue-jsx": "^1.1.2",
+        "@vue/compiler-sfc": "^3.0.5",
+        "@vuedx/typescript-plugin-vue": "^0.6.3",
+        "eslint": "^7.21.0",
+        "eslint-plugin-vue": "^7.7.0",
+        "fs": "^0.0.1-security",
+        "http-proxy": "^1.18.1",
+        "less": "^4.1.1",
+        "path": "^0.12.7",
+        "svg-sprite-loader": "^5.2.1",
+        "typescript": "^4.1.3",
+        "vite": "^2.0.5",
+        "vite-plugin-html": "^2.0.3",
+        "vite-plugin-style-import": "^0.8.1",
+        "vite-plugin-windicss": "^0.9.5",
+        "vuex-module-decorators": "^1.0.1"
+    }
+}

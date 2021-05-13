@@ -1,0 +1,74 @@
+{
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.minimap.enabled": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.showExpandedAbbreviation": "always",
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html",
+        "xml": {
+            "attr_quotes": "single"
+        }
+    },
+    "emmet.includeLanguages": {
+        "vue": "html"
+    },
+    "stylelint.enable": true,
+    "stylelint.ignoreDisables": true,
+    "stylelint.packageManager": "yarn",
+    "eslint.run": "onSave",
+    "eslint.format.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.options": {
+        "plugins": ["html", "vue", "javascript", "jsx", "typescript"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".vue"]
+    },
+    "eslint.validate": ["javascript", "typescript", "reacttypescript", "reactjavascript", "html", "vue"],
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "go.useLanguageServer": false,
+    "volar.tsPlugin": true,
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.format.defaultFormatter.ts": "vscode-typescript",
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.options.useTabs": true,
+    "vetur.experimental.templateInterpolationService": true,
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            "eslintIntegration": true,
+            "arrowParens": "always",
+            "semi": false,
+            "singleQuote": true
+        },
+        "js-beautify-html": {
+            "wrap_attributes": "force-expand-multiline"
+        },
+        "prettyhtml": {
+            "printWidth": 100,
+            "singleQuote": false,
+            "wrapAttributes": false,
+            "sortAttributes": false
+        }
+    },
+    "html.format.indentHandlebars": true,
+    "html.format.wrapAttributes": "aligned-multiple",
+    "html.format.wrapLineLength": 180,
+    "i18n-ally.localesPaths": ["src/locales", "src/locales/lang"]
+}

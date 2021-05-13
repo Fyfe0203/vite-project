@@ -1,0 +1,51 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "strictFunctionTypes": false,
+        "jsx": "preserve",
+        "allowJs": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "experimentalDecorators": true,
+        "incremental": true,
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "lib": ["esnext", "dom"],
+        "types": ["vite/client", "node"],
+        "typeRoots": ["./node_modules/@types/", "./types"],
+        "baseUrl": ".",
+        "paths": {
+            "/@/*": ["src/*"],
+            "/#/*": ["types/*"],
+            "/assets/*": ["src/assets/*"],
+            "/com/*": ["src/components/*"],
+            "/plugins/*": ["src/plugins/*"],
+            "/utils/*": ["src/utils/*"],
+            "/views/*": ["src/views/*"]
+        },
+        "plugins": [
+            {
+                "name": "@vuedx/typescript-plugin-vue"
+            }
+        ]
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "types/**/*.d.ts",
+        "types/**/*.ts",
+        "build/**/*.ts",
+        "build/**/*.d.ts"
+    ],
+    "exclude": ["node_modules", "dist", "**/*.js"]
+}
